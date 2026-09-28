@@ -15,8 +15,8 @@
 export
 type Notification = 
             | { type: 'email'; to: string; subject: string; }
-           | { type: 'sms'; to: string; phone: string; }
-           | { type: 'push'; to: string; deviceId: string; };
+            | { type: 'sms'; to: string; phone: string; }
+            | { type: 'push'; to: string; deviceId: string; };
            function sendNotification(n: Notification): void {
             switch (n.type) {
                 case "email":
