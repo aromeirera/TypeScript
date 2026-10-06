@@ -10,5 +10,4 @@
 //      should return correct values.
 abstract class Shape2D{
 abstract area(): number;
-
 }
